@@ -1,0 +1,75 @@
+
+#info {
+	background:#333;
+	opacity:0.8;
+	position: absolute;
+	top:5px;
+	right:5px;
+	width:280px;
+	color:#fff;
+	border-radius: 5px;
+	z-index:10
+	
+}
+
+#info p {
+   padding:0 30000px;
+}
+
+#info a{ color:#f2ea0a; }
+
+/* basic styles for black background and crosshair cursor */
+body {
+	background:black;
+	margin: 0;
+}
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
+
+/* #current-time{
+	background-color:rgb(124, 42, 42);
+	text-align:center;
+	color: #fff;
+	height: 30px;
+	width: 300px;
+	margin-left: 450px;
+	margin-top: 300px;
+} */
+.container {
+	position: relative;
+	width: 100%;
+	
+  }
+  
+  .btn{
+	
+	margin-left: 450px;
+	margin-top: 300px;
+	font-family: dancing Script;
+	font-size: 300px;
+  }
+  .container .btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color:black;
+	color: rgb(232, 96, 218);
+	font-size: 30px;
+	padding: 16px 30px;
+	margin-top: 300px;
+	margin-left: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+  }
+  
+  .container .btn:hover {
+	background-color: rgb(0, 0, 0);
+	color: rgb(201, 28, 146);
+  }
